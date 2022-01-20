@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -70,7 +71,7 @@ body {
   text-align: center;
   background-color: #05000f;
   width: 502px;
-  height: 130px;
+  height: 120px;
   border-radius: 10px;
   margin-bottom: 40px;
 }
@@ -78,10 +79,9 @@ body {
 @media only screen and (min-width: 600px) {
   .color-name {
     width: 620px;
-    height: 80px;
+    height: 100px;
     display: inline-flex;
     flex-direction: row;
-    position: relative;
   }
 }
 
@@ -93,26 +93,11 @@ body {
   letter-spacing: 3px;
 }
 
-@media only screen and (max-width: 600px) {
-  .color-name > h1 {
-    position: absolute;
-    right: 100px;
-  }
-}
-
-.color-name > p {
+.color-name > h1 > span {
   font-family: "Open Sans", sans-serif;
   font-weight: 500;
   font-size: 35px;
   color: #6e90e6;
-}
-
-@media only screen and (max-width: 600px) {
-  .color-name > p {
-    position: absolute;
-    right: 210px;
-    bottom: 310px;
-  }
 }
 
 .btn {
